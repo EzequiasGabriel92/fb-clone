@@ -1,0 +1,115 @@
+.login-container{
+    background-color: var(--body-color);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.login-header{
+    height: 78vh;  
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login-rigth{
+    display: flex;
+    width: 280px;
+    padding-right: 30px;
+    flex-direction: column;
+}
+figure img{
+    margin: -28px;
+}
+input{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: solid 0.5px ;
+}
+
+.login-button{
+    width: 100%;
+    height: 40px;
+    background-color: var(--primary-button-color);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    outline: none;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.register-button{
+    border-radius: 5px;;
+    outline: none;
+    color: #ffffff;
+    background-color: var(--succes-button-color);
+    border: none;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.tag-line{
+    margin: 10px 10px;
+    line-height: 20px;
+}
+
+.crear-pagina{
+    font-weight: 500;
+    font-size: 15px;
+    color: #000;
+
+}
+.new-password{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    text-decoration: none;
+}
+hr{
+    background-color: wheat;
+    width: 100%;
+}
+
+.mat-card{
+    width: 300px;
+    height: 300px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer .footer-container{
+    width: 80%;
+}
+footer ul{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+footer ul li{
+    margin-right: 20px;
+}

@@ -1,4 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+:root{
+    /*buttons*/
+    --primary-button-color: #1877F2;
+    --succes-button-color: #42b72a;
+
+    /*other colors*/
+    --header-color : #FFFFFF;
+    --body-color: #F8F2F5;
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+html, body { 
+    height: 100%; 
+}
+
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+
+
+
+
+
